@@ -26,5 +26,7 @@ public class DemoMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
+
+		// D:\Code\mod_develop\demo1\demomod-template-1.21.1\run\mods
 	}
 }
