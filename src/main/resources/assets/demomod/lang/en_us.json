@@ -2,5 +2,8 @@
   "item.demomod.the_first_try": "The First Try",
   "item.demomod.kitty_cat": "Kitty Cat",
 
-  "itemGroup.demo_group": "Demo Group"
+  "itemGroup.demo_group": "Demo Group",
+
+  "block.demomod.the_first_block": "The First Block",
+  "block.demomod.kitty_cat_block": "Kitty Cat Block"
 }

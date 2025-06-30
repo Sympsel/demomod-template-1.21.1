@@ -1,6 +1,7 @@
 package com.system.demomod.item;
 
 import com.system.demomod.DemoMod;
+import com.system.demomod.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -39,9 +40,13 @@ public class ModItemGroups {
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.demo_group"))
                     .icon(() -> new ItemStack(ModItems.THE_FIRST_TRY))
                     .entries((displayContext, entries) -> {
+                        // 添加物品到物品组
                         entries.add(ModItems.THE_FIRST_TRY);
                         entries.add(Blocks.BRICKS);
                         entries.add(Items.DIAMOND);
+
+                        entries.add(ModBlocks.THE_FIRST_BLOCK);
+                        entries.add(ModBlocks.KITTY_CAT_BLOCK);
                     }).build());
 
     public static void registerModItemGroups() {

@@ -1,5 +1,6 @@
 package com.system.demomod;
 
+import com.system.demomod.block.ModBlocks;
 import com.system.demomod.item.ModItemGroups;
 import com.system.demomod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class DemoMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
