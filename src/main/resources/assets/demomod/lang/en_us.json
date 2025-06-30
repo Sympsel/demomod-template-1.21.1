@@ -1,4 +1,6 @@
 {
   "item.demomod.the_first_try": "The First Try",
-  "item.demomod.kitty_cat": "Kitty Cat"
+  "item.demomod.kitty_cat": "Kitty Cat",
+
+  "itemGroup.demo_group": "Demo Group"
 }
