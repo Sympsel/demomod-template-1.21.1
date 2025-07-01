@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demomod:kitty_cat_block"
+    }
+  ],
+  "result": {
+    "id": "demomod:kitty_cat",
+    "count": 9
+  }
+}

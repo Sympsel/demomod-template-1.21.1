@@ -12,11 +12,11 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     // 创建方块
     public static final Block THE_FIRST_BLOCK = register("the_first_block", new Block(
-            AbstractBlock.Settings.create().strength(1.5f, 6.0f)
+            AbstractBlock.Settings.create().requiresTool().strength(1.5f, 6.0f)
     ));
 
     public static final Block KITTY_CAT_BLOCK = register("kitty_cat_block", new Block(
-            AbstractBlock.Settings.create().strength(3.0f, 3.0f)
+            AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)
     ));
 
     // 注册方块物品

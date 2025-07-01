@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demomod:the_first_block"
+    }
+  ],
+  "result": {
+    "id": "demomod:the_first_try",
+    "count": 9
+  }
+}

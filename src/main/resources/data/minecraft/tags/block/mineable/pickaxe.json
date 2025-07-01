@@ -1,0 +1,8 @@
+{
+  "_comment": "是否覆盖原有文件",
+  "replace": false,
+  "values": [
+    "demomod:the_first_block",
+    "demomod:kitty_cat_block"
+  ]
+}

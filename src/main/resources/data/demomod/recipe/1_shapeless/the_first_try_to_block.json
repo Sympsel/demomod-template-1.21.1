@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "demomod:the_first_try"
+    }
+  },
+  "result": {
+    "id": "demomod:the_first_block",
+    "count": 1
+  }
+}

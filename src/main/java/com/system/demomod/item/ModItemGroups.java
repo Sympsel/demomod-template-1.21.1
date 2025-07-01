@@ -42,8 +42,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         // 添加物品到物品组
                         entries.add(ModItems.THE_FIRST_TRY);
-                        entries.add(Blocks.BRICKS);
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModItems.KITTY_CAT);
 
                         entries.add(ModBlocks.THE_FIRST_BLOCK);
                         entries.add(ModBlocks.KITTY_CAT_BLOCK);
